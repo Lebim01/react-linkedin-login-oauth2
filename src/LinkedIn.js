@@ -116,7 +116,7 @@ export class LinkedIn extends Component {
 
 LinkedIn.defaultProps = {
   disabled: false,
-  children: (<img src={require('../assets/linkedin.png')} alt="Log in with Linked In" style={{ maxWidth: '180px' }} />),
+  children: null,
   supportIE: false,
   redirectPath: '/linkedin',
   scope: 'r_emailaddress',
